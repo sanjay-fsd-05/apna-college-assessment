@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+/* LOGIN CSS */
+/* Full screen container to center the card */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  background-color: #f8f8f8; /* light background */
+}
+
+/* Card style */
+.login-card {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: left;
+}
+
+/* Title */
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: Arial, sans-serif;
+}
+
+/* Form inputs */
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Labels */
+.login-card label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 700;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2f3e46; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Button hover */
+.login-card button:hover {
+  background-color: #0056b3;
+}
+
+/* NABAR CSS */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2f3e46;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links li a:hover,
+.navbar-links a.active {
+  color: #ffd166;
+}
+
+.logout-btn {
+  background-color: #ef476f;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #d63a61;
+}
+
+/* FOOTER CSS */
+.footer {
+  background-color: lightgrey;
+  color: #000000;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
